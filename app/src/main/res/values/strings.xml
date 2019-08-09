@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Recycler Holder</string>
+    <string name="DayOfWeek">День недели:</string>
+    <string name="title_activity_create_notification">CreateNotification</string>
+    <string-array name="WeekDays">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+
+    </string-array>
+</resources>
