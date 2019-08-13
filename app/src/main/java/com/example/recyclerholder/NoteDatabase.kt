@@ -15,7 +15,6 @@ abstract class NoteDatabase : RoomDatabase() {
             synchronized(LOCK) {
                 if (noteDatabase == null) {
                     noteDatabase = Room.databaseBuilder(context, NoteDatabase::class.java, DBName)
-                        .allowMainThreadQueries()
                         .build()
                 }
             }
